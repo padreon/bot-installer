@@ -1,0 +1,11 @@
+pkg install python-software-properties;
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -;
+pkg install nodejs;
+pkg install git;
+pkg install screen;
+mkdir bot;
+cd bot;
+git clone github.com/alfathdirk/LineAlphatJS.git;
+cd LineAlphatJS;
+npm install;
+echo ketik npm start untuk menyalakan bot;
